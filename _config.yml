@@ -1,0 +1,28 @@
+title: Esther Maria van den Berg
+description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+
+url: http://EstherMaria.github.io
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 0
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
+
+social:
+   github: EstherMaria
+   twitter: bretels
+   facebook: esthervdenberg
+   email: esthervdenberg@gmail.com
+
+google_analytics: "UA-58263416-1"
